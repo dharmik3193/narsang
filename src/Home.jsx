@@ -85,14 +85,14 @@ const Home = () => {
 
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <Carousel />
             <About/>
-            <Product/>
+            {/* <Product/> */}
             <Whyus/>
             {/* <Event/> */}
             <Counter/>
-            <Footer/>
+            {/* <Footer/> */}
         </>
     )
 }

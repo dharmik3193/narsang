@@ -51,17 +51,23 @@ const Footer = () => {
                                 <ul>
                                     <li>
                                         <i className="fa fa-map-marker" />
-                                        <strong>address</strong>
-                                        Lorem Ipsum is simply dummy text , Industry-560016.
+                                        <a href="https://goo.gl/maps/jSD4awwJkFjsrTjm9" target="_blank" rel="noopener noreferrer" className="a-color">
+                                            <strong>address</strong>
+                                            402, Middle Point, Mahadev Chowk, Mota Varachha, Surat.
+                                        </a>
                                     </li>
                                     <li>
                                         <i className="fa fa-phone" />
-                                        <strong>phone</strong>
-                                        +91 77200 50066
+                                        <a href="tel:+91 8758298814" className="a-color">
+                                            <strong>phone</strong>
+                                            +91 87582 98814
+                                        </a>
                                     </li>
                                     <li>
                                         <i className="fa fa-envelope" />
-                                        <strong>email</strong>info@solidtheme.org
+                                        <a href="mailto:info@arshiktech.com" className="a-color">
+                                            <strong>email</strong>info@arshiktech.org
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -72,38 +78,38 @@ const Footer = () => {
             <div className="footer-copyright">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-sm-6 col-xs-12">
+                        <div className="col-md-8 col-sm-6 col-xs-12">
                             <div className="copyright">
                                 <p>
-                                    Copyright © 2020 All Rights Reserved | Developed by SOLIDTHEME
+                                    Copyright © 2023 All Rights Reserved | Developed by Arshik Infotech(Dharmik Bambharoliya)
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-6 col-xs-12">
+                        <div className="col-md-4 col-sm-6 col-xs-12">
                             <div className="footer-icons">
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" className="fb-hover">
                                             <i className="fa fa-facebook" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" className="twitter-hover">
                                             <i className="fa fa-twitter" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" className="google-hover">
                                             <i className="fa fa-google" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" className="pinterest-hover">
                                             <i className="fa fa-pinterest" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" className="insta-hover">
                                             <i className="fa fa-instagram" />
                                         </a>
                                     </li>

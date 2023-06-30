@@ -5,3 +5,33 @@
 .pont-desc{
   margin-left: 20%;
 }
+
+.twitter-hover:hover{
+    color: #1c96e8 !important;
+}
+
+.fb-hover:hover{
+  color: #1e4297 !important;
+}
+
+.google-hover:hover{
+  color: #f3b605 !important;
+}
+
+.pinterest-hover:hover{
+  color: #c62026 !important;
+}
+
+.insta-hover:hover{
+  color: #c43895 !important;
+}
+
+.a-color{
+  color: #fff !important;
+}
+
+.infra-img{
+  left:10%;
+  top: 20%;
+  max-width: 100%;
+}

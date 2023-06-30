@@ -746,7 +746,7 @@ header{
 }
 .infra-desc h2{
     font-size: 50px;
-    margin-left: -95px;
+    /* margin-left: -95px; */
     margin-top: 50px;
     color: black;
     margin-bottom: 40px;
@@ -1036,7 +1036,7 @@ IMPORT
     left: 0;
 }
 .beand-bg{
-    background: #15969675;
+    background: #15969662;
     height: 360px;
     position: absolute;
     right: 50px;
@@ -1056,7 +1056,7 @@ IMPORT
 /* Footer Area
 /*----------------------------------------*/
 .footer-info{
-    background: #000;
+    background: #224659;
     padding: 50px;
 }
 .footer-fix h3{
@@ -1078,7 +1078,7 @@ IMPORT
     top: 10px;
     display: block;
     font-family: FontAwesome;
-    color:#2196f3;
+    color: #159696;
 }
 .fotr-ser ul li{
     border-bottom: 1px dashed rgba(102,102,102,.3);
@@ -1125,7 +1125,7 @@ footer .footer-fix i {
     line-height: 30px;
     background-color: rgba(0,0,0,0);
     border: 0 solid transparent;
-    color: #2196f3;
+    color: #159696;
 }
 .footer-fix img{
     margin-bottom: 0px;
@@ -1163,7 +1163,7 @@ footer .footer-fix i {
     margin-right: 5px;
     width: 35px;
     height: 35px;
-    background:#2196f3;
+    background:#159696;
     transition: 0.4s;
 }
 .footer-icons ul li a:hover{
@@ -1256,7 +1256,7 @@ footer .footer-fix i {
 }
 
 .footer-copyright {
-    background: #0d0d0e;
+    background: #224659;
     padding: 10px 0;
 }
 .copyright-text a:hover{

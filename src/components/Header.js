@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return (
         <header className="sticky">
@@ -34,12 +36,12 @@ const Header = () => {
                                     <div className="main-menu">
                                         <ul className="nav navbar-nav">
                                             <li>
-                                                <a href="index.html">Home</a>
+                                                <Link to={'/'}>Home</Link>
                                             </li>
                                             <li>
-                                                <a href="about.html">About Us</a>
+                                                <Link to={'/about'}>About Us</Link>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <a href="import.html">Import</a>
                                             </li>
                                             <li>
@@ -47,7 +49,7 @@ const Header = () => {
                                             </li>
                                             <li>
                                                 <a href="event.html">Event</a>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <a href="gallery.html">Gallery</a>
                                             </li>
