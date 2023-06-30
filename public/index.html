@@ -23,37 +23,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>React App</title>
-  <style>
-    ul {
-      list-style: none;
-    }
-
-    .rev-slider {
-      overflow: hidden !important;
-      display: none;
-    }
-
-    .rev-slider.revslider-initialised {
-      display: block;
-    }
-
-    #rev1 {
-      height: 620px;
-    }
-
-    #rev2 {
-      height: 840px;
-    }
-  </style>
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!--[if lt IE 9]>
-<script src="assets/bootstrap/js/html5shiv.min.js"></script>
-<script src="assets/bootstrap/js/respond.min.js"></script>
-<![endif]-->
-  <!-- <script src="assets/js/modernizr.custom.js"></script>
-  <script src="assets/js/device.min.js"></script> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/settings.css">
+  <link rel="stylesheet" href="css/layers.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.transitions.css">
+  <link rel="stylesheet" href="css/meanmenu.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/icon.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -69,21 +52,85 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  <!-- <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/corpress.min.js"></script> -->
-  <!-- IE -->
-  <!-- <script src="assets/js/modernizr.custom.js"></script>
-  <script src="assets/js/jquery.pagescroller.lite.js"></script> -->
-  <!-- Revolution Slider -->
-  <!-- <script src="assets/plugins/revslider/js/jquery.themepunch.revolution.min.js"></script>
-  <script src="assets/plugins/revslider/js/jquery.themepunch.plugins.min.js"></script> -->
-  <!-- magnific popup -->
-  <!-- <script src="assets/plugins/magnificpopup/jquery.magnific-popup.min.js"></script> -->
-  <!-- Contact form validation -->
-  <!-- <script src="assets/form/js/contact-form.js"></script> -->
-  <!-- our main JS file -->
-  <!-- <script src="assets/js/main.js"></script> -->
+  <!-- jquery latest version -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.meanmenu.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/main-slider-script.js"></script>
+  <!--Revolution Slider-->
+  <script src="js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/jquery.themepunch.tools.min.js"></script>
+  <script src="js/extensions/revolution.extension.actions.min.js"></script>
+  <script src="js/extensions/revolution.extension.carousel.min.js"></script>
+  <script src="js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script src="js/extensions/revolution.extension.migration.min.js"></script>
+  <script src="js/extensions/revolution.extension.navigation.min.js"></script>
+  <script src="js/extensions/revolution.extension.parallax.min.js"></script>
+  <script src="js/extensions/revolution.extension.slideanims.min.js"></script>
+  <script src="js/extensions/revolution.extension.video.min.js"></script>
+  <script type="text/javascript">
+    $(window).scroll(function () {
+      var sticky = $('.sticky'),
+        scroll = $(window).scrollTop();
+
+      if (scroll >= 100) sticky.addClass('fixed');
+      else sticky.removeClass('fixed');
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#testimonial-slider").owlCarousel({
+        items: 1,
+        itemsDesktop: [1199, 2],
+        itemsDesktopSmall: [979, 2],
+        itemsTablet: [768, 2],
+        itemsMobile: [600, 1],
+        pagination: true,
+        navigation: false,
+        navigationText: ["", ""],
+        slideSpeed: 1000,
+        autoPlay: true
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('.counter-value').each(function () {
+        $(this).prop('Counter', 0).animate({
+          Counter: $(this).text()
+        }, {
+          duration: 3500,
+          easing: 'swing',
+          step: function (now) {
+            $(this).text(Math.ceil(now));
+          }
+        });
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $('.owl-event').owlCarousel({
+      loop: true,
+      margin: 30,
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
 </body>
 
 </html>
