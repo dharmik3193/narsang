@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 const Contactus = () => {
 
@@ -8,6 +9,37 @@ const Contactus = () => {
 
     }, [])
 
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [mobile, setMobile] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+    const submitdata = (e) => {
+        e.preventDefault();
+
+        axios.post('https://attractive-gold-wetsuit.cyclic.app/users/add-inquiry-narsang', {
+            name: name,
+            email: email,
+            mobile: mobile,
+            subject: subject,
+            message: message
+        })
+            .then(function (response) {
+                // console.log(response);
+                alert("Thank you for your inquiry!");
+                setName('');
+                setEmail('');
+                setMobile('');
+                setSubject('');
+                setMessage('');
+            })
+            .catch(function (error) {
+                // console.log(error);
+                alert(error.message)
+            });
+
+    }
 
     return (
         <>
@@ -45,7 +77,9 @@ const Contactus = () => {
                                                 <input
                                                     type="text"
                                                     className="form-control"
-                                                    id="name"
+                                                    required
+                                                    onChange={(e) => { setName(e.target.value) }}
+                                                    value={name}
                                                     placeholder="Full Name"
                                                 />
                                             </div>
@@ -55,7 +89,9 @@ const Contactus = () => {
                                                 <input
                                                     type="email"
                                                     className="form-control"
-                                                    id="email"
+                                                    required
+                                                    onChange={(e) => { setEmail(e.target.value) }}
+                                                    value={email}
                                                     placeholder="Email Id"
                                                 />
                                             </div>
@@ -67,7 +103,9 @@ const Contactus = () => {
                                                 <input
                                                     type="number"
                                                     className="form-control"
-                                                    id="phone"
+                                                    required
+                                                    onChange={(e) => { setMobile(e.target.value) }}
+                                                    value={mobile}
                                                     placeholder="Mobile"
                                                 />
                                             </div>
@@ -77,7 +115,9 @@ const Contactus = () => {
                                                 <input
                                                     type="text"
                                                     className="form-control"
-                                                    id="subject"
+                                                    required
+                                                    onChange={(e) => { setSubject(e.target.value) }}
+                                                    value={subject}
                                                     placeholder="Subject"
                                                 />
                                             </div>
@@ -90,7 +130,9 @@ const Contactus = () => {
                                                     className="form-control"
                                                     placeholder="Message"
                                                     spellCheck="false"
-                                                    defaultValue={""}
+                                                    required
+                                                    onChange={(e) => { setMessage(e.target.value) }}
+                                                    value={message}
                                                 />
                                             </div>
                                         </div>
@@ -98,7 +140,7 @@ const Contactus = () => {
                                     <div className="row">
                                         <div className="col-md-12">
                                             <div className="form-group">
-                                                <button className="btn btn-lg btnconntact">Submit</button>
+                                                <button className="btn btn-lg btnconntact" onClick={submitdata}>Submit</button>
                                             </div>
                                         </div>
                                     </div>
