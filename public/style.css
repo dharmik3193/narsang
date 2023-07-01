@@ -304,7 +304,7 @@ header{
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color: transparent;
-    color: #fff;
+    color: #159696;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background: none;
@@ -734,7 +734,7 @@ header{
 /*inner pages
 /*----------------------------------------*/
 .infra-bg{
-    background: #2196f3;
+    background: #159696;
     height: 500px;
 }
 .about-desc p{
@@ -763,7 +763,7 @@ header{
     margin-bottom: 50px;
 }
 .contact-bg-1{
-    background: #2196f3;
+    background: #159696;
     height: 400px;
 }
 .contact-bg-2{
@@ -797,7 +797,7 @@ header{
     height: 80px;
 }
 .btnconntact{
-    background:#000;
+    background:#274a5c;
     color:#fff;
 }
 /* ------------------------------ 

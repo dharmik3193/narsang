@@ -8,9 +8,9 @@ const Header = () => {
                 <div className="row">
                     <div className="col-md-4 col-xs-3">
                         <div className="logo">
-                            <a href="index.html">
+                            <Link to={'/'}>
                                 <img src="img/logo.png" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-md-8 col-xs-9">
@@ -51,10 +51,10 @@ const Header = () => {
                                                 <a href="event.html">Event</a>
                                             </li> */}
                                             <li>
-                                                <a href="gallery.html">Gallery</a>
+                                                <Link to={'/products'}>Products</Link>
                                             </li>
                                             <li>
-                                                <a href="contact.html">Contact Us</a>
+                                                <Link to={'/contact'}>Contact</Link>
                                             </li>
                                         </ul>
                                     </div>

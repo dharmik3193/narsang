@@ -1,4 +1,13 @@
+import { useEffect } from "react";
+
 const Aboutus = () => {
+
+    useEffect(() => {
+      
+        window.scrollTo({ top: 0, behavior:'smooth' });
+        
+    }, [])
+
     return (
         <>
             <section className="inner-page">
@@ -47,11 +56,11 @@ const Aboutus = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 infra-bg infra-desc">
-                                <h2>Infrastructure</h2>
-                                <h3>
+                                <h2 className="a-color">Infrastructure</h2>
+                                <h3 className="a-color">
                                     Our main office is situated in Nagpur, the center of India.
                                 </h3>
-                                <p>
+                                <p className="a-color">
                                     {" "}
                                     We additionally have workplaces, warehouse and the professional
                                     experienced staff present in 5 vital growing areas in India and

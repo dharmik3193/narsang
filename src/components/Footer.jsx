@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
     return (
         <footer id="contact">
@@ -5,17 +7,20 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="footer-fix">
+                            <div className="footer-fix flex">
                                 <div className="logo">
                                     <a href="index.html">
-                                        <h3>Solid Exports</h3>
+                                        {/* <h3>Solid Exports</h3> */}
+                                        <img src="img/logo-white.png" alt="" />
                                     </a>
                                 </div>
-                                <p>
-                                    Lorem Ipsum has been the industry's standard dummy text ever since
-                                    the 1500s, when an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book.
-                                </p>
+                                <div>
+                                    <p>
+                                        Lorem Ipsum has been the industry's standard dummy text ever since
+                                        the 1500s, when an unknown printer took a galley of type and
+                                        scrambled it to make a type specimen book.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -23,25 +28,25 @@ const Footer = () => {
                                 <h3 className="footertitle">Information</h3>
                                 <ul>
                                     <li>
-                                        <a href="about.html">About</a>
+                                        <Link to={'/about'}>About</Link>
                                     </li>
                                     <li>
-                                        <a href="import.html">Import</a>
+                                        <Link to={'/products'}>Products</Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="export.html">Export</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="event.html">Recent Event</a>
+                                        <Link to={'/contact'}>Contact Us</Link>
                                     </li>
                                     <li>
-                                        <a href="gallery.html">Gallery</a>
+                                        <Link to={'/contact'}>Inquire Now</Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="contact.html">Contact Us</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -81,7 +86,7 @@ const Footer = () => {
                         <div className="col-md-8 col-sm-6 col-xs-12">
                             <div className="copyright">
                                 <p>
-                                    Copyright © 2023 All Rights Reserved | Developed by Arshik Infotech(Dharmik Bambharoliya)
+                                    Copyright © 2023 All Rights Reserved | Developed by Arshik Infotech (Dharmik Bambharoliya)
                                 </p>
                             </div>
                         </div>

@@ -19,6 +19,10 @@ const Home = () => {
     }
 
     useEffect(() => {
+
+      
+        window.scrollTo({ top: 0, behavior:'smooth' });
+            
         loadScript('js/jquery-1.12.4.min.js')
         loadScript('js/bootstrap.min.js')
         loadScript('js/owl.carousel.min.js')

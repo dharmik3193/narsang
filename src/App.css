@@ -35,3 +35,8 @@
   top: 20%;
   max-width: 100%;
 }
+
+.flex{
+  display: flex!important;
+  flex-direction: column;
+}
