@@ -40,3 +40,17 @@
   display: flex!important;
   flex-direction: column;
 }
+
+.relative{
+  position: relative;
+}
+
+.main-slider{
+  background-color: #00000059;
+}
+
+.description-slider{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}

@@ -8,6 +8,7 @@ import Whyus from "./components/Whyus";
 import Event from "./components/Event";
 import Counter from "./components/Counter";
 import Footer from "./components/Footer";
+import Carouseldemo from "./components/Carouseldemo";
 
 const Home = () => {
 
@@ -90,7 +91,8 @@ const Home = () => {
     return (
         <>
             {/* <Header /> */}
-            <Carousel />
+            {/* <Carousel /> */}
+            <Carouseldemo/>
             <About/>
             {/* <Product/> */}
             <Whyus/>
