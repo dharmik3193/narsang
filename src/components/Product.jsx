@@ -9,68 +9,84 @@ const Product = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-1.jpg" />
-                            <div className="pro-text">
-                                <h2>Black Eye Bean</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/groundnuts.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Peanuts</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-2.jpg" />
-                            <div className="pro-text">
-                                <h2>Brown Eye Bean</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/greengram.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Green Gram</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-3.jpg" />
-                            <div className="pro-text">
-                                <h2>Split Chickpea</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/blackgram.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Black Gram</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-4.jpg" />
-                            <div className="pro-text">
-                                <h2>Split Pigeon Pea</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/wheat.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Wheat</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-5.jpg" />
-                            <div className="pro-text">
-                                <h2>Kabuli Chickpea</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/wheatflour.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Wheat Flour</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-6.jpg" />
-                            <div className="pro-text">
-                                <h2>Desi Chickpea</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/cheakpea.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Chikpea</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-7.jpg" />
-                            <div className="pro-text">
-                                <h2>Kidney Bean</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/chikpeasplit.webp" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Chikpea Split</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div className="col-md-3 col-sm-6">
-                        <div className="pro-box">
-                            <img src="img/ser-8.jpg" />
-                            <div className="pro-text">
-                                <h2>Red Kidney Bean</h2>
-                            </div>
-                        </div>
+                        <figure class="snip1107 blue pro-box"><img src="img/soybean.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Soy Bean</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>

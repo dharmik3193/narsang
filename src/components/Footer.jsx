@@ -58,7 +58,7 @@ const Footer = () => {
                                         <i className="fa fa-map-marker" />
                                         <a href="https://goo.gl/maps/jSD4awwJkFjsrTjm9" target="_blank" rel="noopener noreferrer" className="a-color">
                                             <strong>address</strong>
-                                            402, Middle Point, Mahadev Chowk, Mota Varachha, Surat.
+                                            118, Sky view, Near Swaminarayan temple, Shamdham Laskana Road, Laskana, Surat - 395013.
                                         </a>
                                     </li>
                                     <li>
