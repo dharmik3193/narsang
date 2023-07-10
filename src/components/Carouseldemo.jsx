@@ -13,7 +13,7 @@ const Carouseldemo = () => {
             live: false
         }).init();
 
-    }, [])
+    }, [1])
 
     const slider = () => {
         console.log("Slider");

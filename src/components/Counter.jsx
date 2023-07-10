@@ -9,7 +9,7 @@ const Counter = () => {
                                 <div className="counter">
                                     <i className="fa fa-briefcase" aria-hidden="true" />
                                     <div className="counter-content">
-                                        <span className="counter-value">30</span>
+                                        <span className="counter-value">2</span>
                                         <h3>Years of Experience</h3>
                                     </div>
                                 </div>
@@ -18,7 +18,7 @@ const Counter = () => {
                                 <div className="counter">
                                     <i className="fa fa-flag" aria-hidden="true" />
                                     <div className="counter-content">
-                                        <span className="counter-value">50</span>
+                                        <span className="counter-value">10</span>
                                         <h3>Countries</h3>
                                     </div>
                                 </div>
@@ -27,7 +27,7 @@ const Counter = () => {
                                 <div className="counter">
                                     <i className="fa fa-user" aria-hidden="true" />
                                     <div className="counter-content">
-                                        <span className="counter-value">25</span>
+                                        <span className="counter-value">5</span>
                                         <h3>Commodities</h3>
                                     </div>
                                 </div>
