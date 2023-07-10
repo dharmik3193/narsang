@@ -58,11 +58,11 @@ const Contactus = () => {
                                 <div className="contact-detail">
                                     <div className="cont-desc">
                                         <h3>Head Office</h3>
-                                        <p>Lorem Ipsum is simply dummy text , Industry-560016.</p>
+                                        <p>118, Sky view, Near Swaminarayan temple, Shamdham Laskana Road, Laskana, Surat - 395013.</p>
                                         <h3>Contact Info</h3>
-                                        <p>+91 77200 50066(24/7 Support Line)</p>
+                                        <p>+91 96877 74098 (24/7 Support Line)</p>
                                         <h3>Email Info</h3>
-                                        <p>info@solidtheme.org</p>
+                                        <p>narsangoverseas01@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,15 +152,13 @@ const Contactus = () => {
                 <div className="container pt40">
                     <div className="row">
                         <div className="col-md-12">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7437.753270093381!2d72.884694!3d21.23674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fb6166e6473%3A0x654e32ec4b18c578!2sCodesign%20Multimedia%20Institute!5e0!3m2!1sen!2sin!4v1688187540670!5m2!1sen!2sin"
-                                width="100%"
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29750.287377252334!2d72.87823789718841!3d21.240336070715234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be045efb272975f%3A0xd5018d266e988a05!2sSkyview%20Business%20Horizon!5e0!3m2!1sen!2sin!4v1688983194476!5m2!1sen!2sin" width="100%"
                                 height={350}
                                 frameBorder={0}
                                 style={{ border: 0 }}
                                 allowFullScreen=""
                                 aria-hidden="false"
-                                tabIndex={0}
-                            />
+                                tabIndex={0}></iframe>
                         </div>
                     </div>
                 </div>

@@ -63,15 +63,15 @@ const Footer = () => {
                                     </li>
                                     <li>
                                         <i className="fa fa-phone" />
-                                        <a href="tel:+91 8758298814" className="a-color">
+                                        <a href="tel:+91 9687774098" className="a-color">
                                             <strong>phone</strong>
-                                            +91 87582 98814
+                                            +91 96877 74098
                                         </a>
                                     </li>
                                     <li>
                                         <i className="fa fa-envelope" />
-                                        <a href="mailto:info@arshiktech.com" className="a-color">
-                                            <strong>email</strong>info@arshiktech.org
+                                        <a href="mailto:narsangoverseas01@gmail.com" className="a-color">
+                                            <strong>email</strong>narsangoverseas01@gmail.com
                                         </a>
                                     </li>
                                 </ul>

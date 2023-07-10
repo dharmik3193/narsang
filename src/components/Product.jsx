@@ -88,6 +88,36 @@ const Product = () => {
                             </figcaption>
                         </figure>
                     </div>
+                    <div className="col-md-3 col-sm-6">
+                        <figure class="snip1107 blue pro-box"><img src="img/pegionpea.webp" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Pegion Pea</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div className="col-md-3 col-sm-6">
+                        <figure class="snip1107 blue pro-box"><img src="img/gramflour.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Gram Flour</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div className="col-md-3 col-sm-6">
+                        <figure class="snip1107 blue pro-box"><img src="img/pearlmillet.jpg" alt="sampl31" />
+                            <figcaption>
+                                <div><span>Inquire Now</span></div>
+                                <div>
+                                    <h3>Pearl Millet</h3>
+                                </div><a href="#"></a>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
