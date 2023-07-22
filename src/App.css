@@ -234,6 +234,13 @@ figure.snip1107.hover figcaption h3 {
   .infra-text{
     height: 300px;
   }
+  .section-inner{
+    padding: 30px 0px;
+  }
+
+  .contact-bg-2{
+    height: 500px;
+  }
 }
 
 .header-height {
