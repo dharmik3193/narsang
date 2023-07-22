@@ -7,11 +7,13 @@ import Footer from './components/Footer';
 import Aboutus from './Aboutus';
 import Productpage from './Productpage';
 import Contactus from './Contactus';
+import Headerdemo from './components/Headerdemo';
 
 function App() {
   return (
     <>
       <Header/>
+      {/* <Headerdemo/> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Aboutus />} />

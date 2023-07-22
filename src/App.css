@@ -158,3 +158,69 @@ figure.snip1107.hover figcaption h3 {
   -webkit-transform: translate3d(0%, -100%, 0);
   transform: translate3d(0%, -100%, 0);
 }
+
+
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-line {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #333;
+  transition: transform 0.3s ease;
+}
+
+.open .menu-line:nth-child(1) {
+  transform: translateY(8px) rotate(-45deg);
+}
+
+.open .menu-line:nth-child(2) {
+  opacity: 0;
+}
+
+.open .menu-line:nth-child(3) {
+  transform: translateY(-8px) rotate(45deg);
+}
+
+/* Media Query for Responsive Header */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column-reverse  !important;
+    margin-top: 20px;
+    display: none;
+  }
+  .nav>li>a{
+    /* width: 50px; */
+    padding: 10px 30px;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+.header-height{
+  height: 82px;
+  padding-top: 25px;
+  /* padding-bottom: 50%; */
+}
+
+.navbar-nav > li > a{
+  font-family: 'Montserrat', Courier, monospace;
+  color: #224659 !important;
+  font-size: 18px;
+  font-weight: 600;
+  /* padding: 10px 15px; */
+  text-transform: capitalize;
+}

@@ -189,6 +189,7 @@ body {
     float: none;
     margin: 0 auto;
 }
+
 .clear{
 	clear:both;
 }
@@ -375,6 +376,20 @@ header{
 
 .mean-nav ul li.mean-last {
     margin-bottom: 20px;
+}
+
+.navbar-nav{
+    flex-direction: row !important;
+}
+.navbar-nav > li > a{
+    text-decoration: none !important;
+}
+
+.hamberger-button{
+    font-size: 20px;
+    outline: 0 !important;
+    border: none !important;
+    background-color: transparent;
 }
 
 /*----------------------------------------*/
