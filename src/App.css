@@ -31,7 +31,7 @@
 }
 
 .infra-img {
-  left: 10%;
+  left: 0%;
   top: 20%;
   max-width: 100%;
 }
@@ -227,6 +227,13 @@ figure.snip1107.hover figcaption h3 {
   .main-slider h2 {
     font-size: 30px;
   }
+  .infra-desc > h2{
+    padding-top: 20px;
+  }
+
+  .infra-text{
+    height: 300px;
+  }
 }
 
 .header-height {
@@ -238,7 +245,7 @@ figure.snip1107.hover figcaption h3 {
 .navbar-nav > li > a {
   font-family: "Montserrat", Courier, monospace;
   color: #224659 !important;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   /* padding: 10px 15px; */
   text-transform: capitalize;
