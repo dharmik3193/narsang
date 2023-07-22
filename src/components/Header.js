@@ -14,7 +14,6 @@ const Header = () => {
         <>
             <header className="sticky">
                 <div className="container">
-                    {/* <div className=""></div> */}
                     <div className="row aligncenter">
                         <div className="col-md-4 col-xs-8 col-8">
                             <div className="logo">
@@ -47,10 +46,10 @@ const Header = () => {
                                             <li>
                                                 <a href="event.html">Event</a>
                                             </li> */}
-                                        <li>
+                                        <li onClick={toggleMenu}>
                                             <Link to={'/products'}>Products</Link>
                                         </li>
-                                        <li>
+                                        <li onClick={toggleMenu}>
                                             <Link to={'/contact'}>Contact</Link>
                                         </li>
                                     </ul>

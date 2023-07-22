@@ -54,8 +54,11 @@
   top: 30%;
   left: 20%;
 }
+.description-slider > h2{
+  margin-left: 0%;
+}
 
-.about-img{
+.about-img {
   overflow: hidden;
 }
 
@@ -159,8 +162,6 @@ figure.snip1107.hover figcaption h3 {
   transform: translate3d(0%, -100%, 0);
 }
 
-
-
 .menu-icon {
   display: none;
   cursor: pointer;
@@ -189,11 +190,15 @@ figure.snip1107.hover figcaption h3 {
 /* Media Query for Responsive Header */
 @media screen and (max-width: 768px) {
   .nav-links {
-    flex-direction: column-reverse  !important;
+    flex-direction: column-reverse !important;
     margin-top: 20px;
     display: none;
   }
-  .nav>li>a{
+  .description-slider > h2{
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .nav > li > a {
     /* width: 50px; */
     padding: 10px 30px;
   }
@@ -208,16 +213,30 @@ figure.snip1107.hover figcaption h3 {
   .menu-icon {
     display: block;
   }
+  .main-slider {
+    padding-top: 90px;
+  }
+  .description-slider > .text {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .description-slider {
+    top: 10%;
+    left: 10%;
+  }
+  .main-slider h2 {
+    font-size: 30px;
+  }
 }
 
-.header-height{
+.header-height {
   height: 82px;
   padding-top: 25px;
   /* padding-bottom: 50%; */
 }
 
-.navbar-nav > li > a{
-  font-family: 'Montserrat', Courier, monospace;
+.navbar-nav > li > a {
+  font-family: "Montserrat", Courier, monospace;
   color: #224659 !important;
   font-size: 18px;
   font-weight: 600;
